@@ -228,6 +228,10 @@ main{
     padding: 40px 0;
 }
 
+.goto-header{
+    text-align: center;
+}
+
 .goto-btn {
     background-color: rgb(76, 175, 80, 0.5);
     color: white;
