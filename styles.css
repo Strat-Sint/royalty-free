@@ -224,6 +224,10 @@ main{
     gap: 10px;
 }
 
+.goto{
+    padding: 40px 0;
+}
+
 .goto-btn {
     background-color: rgb(76, 175, 80, 0.5);
     color: white;
