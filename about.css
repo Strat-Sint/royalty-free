@@ -158,13 +158,25 @@ body{
 }
 
 @media (max-width: 720px){
-    .body-container{
-        font-size: 14px;
-        max-width: 500px;
+    
+    .container .body-container{
+        max-width: 450px;
     }
 
     .body-container .body-header i{
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .body-container .body-header{
+        font-size: 0.7rem;
+    }
+
+    .body-container .body-text{
+        font-size: 0.7rem;
+    }
+
+    .titlos{
+        font-size: 1.2rem;
     }
 }
 
