@@ -215,6 +215,10 @@ main{
     flex: 1;
 }
 
+.goto{
+    padding: 40px 0;
+}
+
 .goto-container {
     display: flex;
     justify-content: center;
