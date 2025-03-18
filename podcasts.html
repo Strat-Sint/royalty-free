@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcasts</title>
+    <link rel="stylesheet" href="podcasts.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    <link rel="icon" href="./files/teddy_logo_rounded.png" type="image/jpeg"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-ul">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="podcasts.html"><li>Podcasts</li></a>
+                    <a href="about.html"><li>Extra Info</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sec-container">
+            <div class="container">
+                <div class="sec-header">
+                    <img src="./files/vinyl.png" alt="container" class="image">
+                    <h1 class="h1-1">Movement<br>
+                        <p class="by">by SoulProdMusic</p>
+                    </h1>
+                </div>
+                <audio class="mp3-audio" controls controlsList="nodownload">
+                    <source src="./files/movement.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="container">
+                <div class="sec-header">
+                    <img src="./files/vinyl.png" alt="container" class="image">
+                    <h1 class="h1-1">Amalgam<br>
+                        <p class="by">by Rockot</p>
+                    </h1>
+                </div>
+                <audio class="mp3-audio" controls controlsList="nodownload">
+                    <source src="./files/amalgam.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="container">
+                <div class="sec-header">
+                    <img src="./files/vinyl.png" alt="container" class="image">
+                    <h1 class="h1-1">Lost in Dreams<br>
+                        <p class="by">by Kulakovka</p>
+                    </h1>
+                </div>
+                <audio class="mp3-audio" controls controlsList="nodownload">
+                    <source src="./files/lost-in-dreams.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="container">
+                <div class="sec-header">
+                    <img src="./files/vinyl.png" alt="container" class="image">
+                    <h1 class="h1-1">A Hero of the 80's<br>
+                        <p class="by">by Grand_Project</p>
+                    </h1>
+                </div>
+                <audio class="mp3-audio" controls controlsList="nodownload">
+                    <source src="./files/hero-80.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="container">
+                <div class="sec-header">
+                    <img src="./files/vinyl.png" alt="container" class="image">
+                    <h1 class="h1-1">Inspire Me<br>
+                        <p class="by">by AlexGrohl</p>
+                    </h1>
+                </div>
+                <audio class="mp3-audio" controls controlsList="nodownload">
+                    <source src="./files/inspire-me.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="container">
+                <div class="sec-header">
+                    <img src="./files/vinyl.png" alt="container" class="image">
+                    <h1 class="h1-1">California<br>
+                        <p class="by">by MagpieMusic</p>
+                    </h1>
+                </div>
+                <audio class="mp3-audio" controls controlsList="nodownload">
+                    <source src="./files/california.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </section>    
+        <section class="sec-form">
+            <p class="text">
+                You can open the form for the download button from <span class="txt">here</span>.
+            </p>
+            <div class="form">
+                <div class="login-container">
+                    <form class="login-form">
+                        <fieldset class="onoma-container">                         
+                                <legend> Name </legend>
+                                <input type="text" class="onoma-input" placeholder="Enter a name. Not required">                           
+                        </fieldset>         
+                        <div class="check-container">
+                            <h3 class="check-titlos">I want to donwload</h3>
+                            <input type="checkbox" class="check" required>
+                        </div>
+                        <div class="submit-btn">
+                            <button class="login-btn" type="submit">Sumbit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>    
+        </section>
+    </main>
+    <script src="podcasts.js"></script>
+</body>
+</html>
