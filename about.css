@@ -158,7 +158,6 @@ body{
 }
 
 @media (max-width: 720px){
-    
     .container .body-container{
         max-width: 450px;
     }
